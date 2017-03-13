@@ -69,6 +69,7 @@ Céu-SDL empowers the development of SDL applications with the following extensi
 - Seamless integration with standard SDL (e.g., `SDL_RenderFillRect`, `SDL_RenderPresent`, etc).
 
 <!-- TODO: comentar que o SDL eh suficiente para as nossas necessidades (eh um superset do que a gente precisa) -->
+<!-- discutir a ideia de entrada e saída e como ela aparece em SDL e como seria mapeada para Céu -->
 
 ## Graphics Library References
 
@@ -106,6 +107,8 @@ The library must be built to be used with *Structured Synchronous Reactive Progr
 
 The library must also be very simple in its default use. The very basic goal is to have a library that is very natural to learn and use while programming in Céu. The idea is for it to be "easy enough for a 12 y.o student to use".
 
+<!-- /\ \/ aqui ficou bom!  -->
+
 With that in mind, we do not expect the library to do everything that a advanced programmer might want a graphics library to do.
 
 One important milestone of the project is being able to rewrite programs in Céu that use Céu-SDL using only the graphics library being developed. One of those programs are:
@@ -133,7 +136,7 @@ the application period:
 3. Compile some existing Céu-SDL examples
 4. Create a repository on *GitHub* and write some simple "Hello World" examples that demonstrates the basic understanding of Céu-SDL.
 
-All those activities should be simple, i.e., nothing more than following tutorials  on the web.
+All those activities should be simple, i.e., nothing more than following tutorials on the web.
 
 ## How to apply
 
