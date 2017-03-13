@@ -1,5 +1,7 @@
 # Developing a Beginner Friendly Graphic Library for Céu
 
+<--
+ACHO QUE NAO PRECISA
 ## About Céu
 
 Céu is a programming language that targets system-level development of reactive systems.
@@ -15,20 +17,37 @@ Céu appeared in "Future Programming" and "Curry-On" workshops:
 http://www.future-programming.org/2014/program.html
 
 http://curry-on.org/2015/sessions/structured-synchronous-programming.html
+-->
 
-## Brief explanation
+## Brief Explanation
 
-Currently, Céu has binding for the graphic library SDL called Céu-SDL.
+Currently, Céu has a binding for the SDL graphic library called Céu-SDL.
 
 https://github.com/fsantanna/ceu-sdl
 
+<!--
+ACHO QUE NAO PRECISA
 SDL is a C-based and cross-platform development library that provides access to audio, keyboard, mouse, joystick, and graphics hardware:
 
 http://libsdl.org/
+-->
 
-However, even the basic tasks such as drawing a square on the screen that could be moved with the keyboard require a considerable amount of lines of codes and some computer graphics programming experience.
+However, even the basic tasks such as drawing a square on the screen requires a considerable amount of code and some computer graphics experience.
 
-The goal of this project is to develop a beginner friendly graphic library in Céu with Structured Synchronous Reactive Programming in mind. It is desired to allow "a 12 year old student" to use the library with ease while not limiting the functionalities of more experienced users.
+The goal of this project is to develop a beginner friendly graphic library in Céu with *Structured Synchronous Reactive Programming* in mind.
+<!--It is desired to allow "a 12 year old student" to use the library with ease (NAO SEI SE EH PRA TANTO)--> <!--while not limiting the functionalities of more experienced users (TALVEZ SIM)-->
+As an example, a program that traces a line pixel by pixel on every key press would look like as follows:
+
+```
+input void KEY;
+output (int,int) PIXEL;
+
+var int x = 0;
+every KEY do
+    emit PIXEL(x,10);
+    x = x + 1;
+end
+```
 
 ## Tools
 
@@ -82,19 +101,6 @@ The library must be built to be used with *Structured Synchronous Reactive Progr
 The library must also be very simple in its default use. The very basic goal is to have a library that is very natural to learn and use while programming in Céu. The idea is for it to be "easy enough for a 12 y.o student to use".
 
 With that in mind, we do not expect the library to do everything that a advanced programmer might want a graphics library to do.
-
-For example, the interface of the library for a program that moves a pixel every time you press a key could look like the following:
-
-```
-input void KEY;                                                                 
-output (int,int) PIXEL;                                                         
-                                                                                
-var int x = 0;                                                                  
-every KEY do                                                                    
-    emit PIXEL(x,10);                                                           
-    x = x + 1;                                                                  
-end  
-```
 
 One important milestone of the project is being able to rewrite programs in Céu that use Céu-SDL using only the graphic library being developed. One of those programs are:
 
