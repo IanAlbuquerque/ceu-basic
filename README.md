@@ -1,4 +1,4 @@
-# Developing a Beginner Friendly Graphic Library for Céu
+# Developing a Beginner Friendly Graphics Library for Céu
 
 <--
 ACHO QUE NAO PRECISA
@@ -21,7 +21,7 @@ http://curry-on.org/2015/sessions/structured-synchronous-programming.html
 
 ## Brief Explanation
 
-Currently, Céu has a binding for the SDL graphic library called Céu-SDL.
+Currently, Céu has a binding for the SDL graphics library called Céu-SDL.
 
 https://github.com/fsantanna/ceu-sdl
 
@@ -34,7 +34,7 @@ http://libsdl.org/
 
 However, even the basic tasks such as drawing a square on the screen requires a considerable amount of code and some computer graphics experience.
 
-The goal of this project is to develop a beginner friendly graphic library in Céu with *Structured Synchronous Reactive Programming* in mind.
+The goal of this project is to develop a beginner friendly graphics library in Céu with *Structured Synchronous Reactive Programming* in mind.
 <!--It is desired to allow "a 12 year old student" to use the library with ease (NAO SEI SE EH PRA TANTO)--> <!--while not limiting the functionalities of more experienced users (TALVEZ SIM)-->
 As an example, a program that traces a line pixel by pixel on every key press would look like as follows:
 
@@ -49,9 +49,11 @@ every KEY do
 end
 ```
 
+<!-- TODO: talvez colocar alguns comentários no programa e explicar o que o programa *não fez* (escolher uma cor, aplicar/flip as primitivas, etc) -->
+
 ## Tools
 
-The most important tool that can be used as part of the implementation of the new graphic library is Céu-SDL, the binding of SDL for Céu.
+The most important tool that can be used as part of the implementation of the new graphics library is Céu-SDL, the binding of SDL for Céu.
 
 https://github.com/fsantanna/ceu-sdl
 
@@ -64,7 +66,7 @@ This biding empowers the development of SDL applications in Céu with the follow
 - Asynchronous loops for heavy computations.
 - Seamless integration with standard SDL (e.g., `SDL_RenderFillRect`, `SDL_RenderPresent`, etc).
 
-## Graphic Library References
+## Graphics Library References
 
 Below you can find some references of libraries and projects in other languages that can be used as a reference when developing this project:
 
@@ -102,7 +104,7 @@ The library must also be very simple in its default use. The very basic goal is 
 
 With that in mind, we do not expect the library to do everything that a advanced programmer might want a graphics library to do.
 
-One important milestone of the project is being able to rewrite programs in Céu that use Céu-SDL using only the graphic library being developed. One of those programs are:
+One important milestone of the project is being able to rewrite programs in Céu that use Céu-SDL using only the graphics library being developed. One of those programs are:
 
 https://github.com/fsantanna/ceu-sdl-storm
 
