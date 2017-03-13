@@ -1,4 +1,4 @@
-# Developing a Begginer Friendly Graphic Library for Céu
+# Developing a Beginner Friendly Graphic Library for Céu
 
 ## About Céu
 
@@ -28,7 +28,7 @@ http://libsdl.org/
 
 However, even the basic tasks such as drawing a square on the screen that could be moved with the keyboard require a considerable amount of lines of codes and some computer graphics programming experience.
 
-The goal of this project is to develop a begginer friendly graphic library in Céu with Structured Synchronous Reactive Programming in mind. It is desired to allow "a 12 year old student" to use the library with ease while not limiting the functionalities of more experienced users.
+The goal of this project is to develop a beginner friendly graphic library in Céu with Structured Synchronous Reactive Programming in mind. It is desired to allow "a 12 year old student" to use the library with ease while not limiting the functionalities of more experienced users.
 
 ## Tools
 
