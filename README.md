@@ -124,6 +124,24 @@ Once the basic goal is achieved, it is also possible to expand the functionaliti
 
 Overall, a good performance of the library is not essential - specially because the goal is to use it for simple projects. However, having good performance and developing with scalability in mind is a good "extra" goal to consider.
 
+<!--
+TODO: criar uma secao "What I already did" (ou algo assim), análoga ao "Prerequisites".
+Sugiro fazer do 1-4 e um item adicional a seguir:
+
+5. Add an input event to Céu-SDL and submit a pull request to the official repository.
+
+A parte do código a ser mexida:
+https://github.com/fsantanna/ceu-sdl/blob/master/include/sdl/sdl.ceu#L272
+
+Um sugestão de evento a ser adicionado (qualquer um):
+https://wiki.libsdl.org/SDL_WindowEvent?highlight=%28%5CbCategoryStruct%5Cb%29%7C%28CategoryEvents%29
+
+Adicionar um exemplo em `ceu-sdl/samples`.
+-->
+
+<!--
+ACHO QUE NAO SE APLICA
+
 ## Prerequisites
 
 We expect the applicants to know *C* well and to develop minimum familiarity with the important tools before the project kicks off.
@@ -153,4 +171,4 @@ Medium
 Francisco Sant'Anna
 
 http://www.ceu-lang.org/chico
-
+-->
