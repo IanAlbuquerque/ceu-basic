@@ -50,7 +50,7 @@ This biding empowers the development of SDL applications in Céu with the follow
 Below you can find some references of libraries and projects in other languages that can be used as a reference when developing this project:
 
 
-- gfx, a simple graphics library for CSE 20211. This library is meant to be simple and easy to learn, so that beginning CSE students can get right into the interesting parts of programming. The gfx library only requires that the programmer understand how to invoke basic C functions with scalar arguments.
+- `gfx`, a simple graphics library for CSE 20211. This library is meant to be simple and easy to learn, so that beginning CSE students can get right into the interesting parts of programming. The gfx library only requires that the programmer understand how to invoke basic C functions with scalar arguments.
 
 https://www3.nd.edu/~dthain/courses/cse20211/fall2013/gfx/
 
@@ -65,15 +65,15 @@ It is part of the project the discussion and definition of the formal requisites
 However, it is expected some basic functionalities:
 
 - Drawing pixels and basic primitives with colors on the screen
---- Pixels
---- Lines
---- Rectangles
---- Triangles
---- Circles
+    - Pixels
+    - Lines
+    - Rectangles
+    - Triangles
+    - Circles
 
 - Gathering input
---- From keyboard
---- From mouse
+    - From keyboard
+    - From mouse
 
 It is also expected a vast documentation of the library, including usage examples.
 
