@@ -57,14 +57,18 @@ The most important tool that can be used as part of the implementation of the ne
 
 https://github.com/fsantanna/ceu-sdl
 
-This biding empowers the development of SDL applications in Céu with the following extensions:
+Céu-SDL empowers the development of SDL applications with the following extensions:
 
 - Awaiting events in direct/sequential style.
 - Parallel lines of execution with
     - safe abortion;
     - deterministic behavior (in contrast with threads).
+<!--
 - Asynchronous loops for heavy computations.
+-->
 - Seamless integration with standard SDL (e.g., `SDL_RenderFillRect`, `SDL_RenderPresent`, etc).
+
+<!-- TODO: comentar que o SDL eh suficiente para as nossas necessidades (eh um superset do que a gente precisa) -->
 
 ## Graphics Library References
 
