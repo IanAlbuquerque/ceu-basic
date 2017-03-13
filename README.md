@@ -1,8 +1,8 @@
 # Developing a Beginner Friendly Graphics Library for Céu
 
-<--
+<!--
 ACHO QUE NAO PRECISA
- About Céu
+## About Céu
 
 Céu is a programming language that targets system-level development of reactive systems.
 
